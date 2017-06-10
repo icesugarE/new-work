@@ -1,0 +1,85 @@
+    body{
+        font-size: 12px;
+        color: #522a06；
+        background-color:black;
+    }
+    a:link{
+        color:#fff;
+        text-decoration: none;
+    }
+    a:visited{
+        color: #fff;
+    }
+    a:hover{
+        color:#f9f603;
+        text-decoration:none;
+    }
+    #all{
+        background-image: url(../images/bei.jpg);
+
+    }
+    #miao{
+        color:#f9f603;
+    }
+    #one1{
+        background-image: url(../images/aotu1.jpg);
+        background-position: top center;
+        height:230px;
+            }
+    #one11{
+        float: z-index;
+        padding-left: 25px;
+        padding-top: 38px;
+    }
+    #one2{
+        background-image: url(../images/timg.jpg);
+        height: 40px;
+    }
+    #one21{
+        width: 800px;
+        color:#fff;
+        font-weight: normal;
+        text-align: center;
+        line-height:40px;
+        float: left;
+        
+    }
+    #one22{
+        float: left;
+        padding-top: 10px;
+        padding-left: 40px;
+    }
+    #one222{
+        width: 140px;
+        height: 19px;
+        background-color: #f8f5ee;
+        float: left;
+    }
+    #one2222{
+        width: 44px;
+        height: 21px;
+        background-color: #000;
+        color:#fff;
+        border: 1px solid #f8f5ee;
+        float: left;
+        text-align: center;
+    }
+    #three{
+        height: 150px;
+        clear: both;
+        background-image: url(../images/timg2.jpg);
+        text-align: center;
+        padding-top: 30px;
+        color:white;
+
+    }
+    #clear{
+        clear: both;
+    }
+        #two{
+        width: 1000px;
+        height: 1415ps;
+        clear: right/right;
+        margin:0 auto;
+        background-image: url(../images/timg2.jpg);
+    }
