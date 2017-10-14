@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	input{
+		height:50px;
+		width: 50px;
+	}
+	#result{
+		width: 170px;
+	}
+	</style>
+	</style>
+	<script type="text/javascript">
+    var str='';
+    function have(){
+    	str+=document.getElementById().value;
+    }
+    function showData(){
+    	document.getElementById("result").innerHTML = str;
+    }
+    function calculate(){
+    	document.getElementById("result").innerHTML = '';
+    	eval(str);
+    	document.getElementById("result").innerHTML = resultNum;
+    }
+    function clearData(){
+    	document.getElementById("result").innerHTML = 0;
+    }
+	</script>
+</head>
+<body>
+内部函数写出无法实现，怎么也无法让数据在结果框中显示
+<form>
+    <table border="1" cellspacing="1.5" bordercolor="grey" width="200px" height="200px" cellpadding="5px" onClick="calculater()">
+        <tr>
+            <td colspan="3"><input type=text id="result" ></td>
+            <td><input type="button" value="c"  id="ccc" onclick="clearData();"></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="a" value="1" onclick="have(1);"></td>
+            <td><input type="button" id="b" value="2" onclick="have(2);"></td>
+            <td><input type="button" id="c" value="3" onclick="have(3);"></td>
+            <td><input type="button" id="d" value="+" onclick="have(+);"></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="e" value="4" onclick="have(4);"></td>
+            <td><input type="button" id="f" value="5" onclick="have(5);"></td>
+            <td><input type="button" id="g" value="6" onclick="have(6);"></td>
+            <td><input type="button" id="h" value="-" onclick="have(-);"></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="o" value="7" onclick="have(7);"></td>
+            <td><input type="button" id="p" value="8" onclick="have(8);"></td>
+            <td><input type="button" id="q" value="9" onclick="have(9);"></td>
+            <td><input type="button" id="m" value="*" onclick="have(*);"></td>
+        </tr>
+         <tr>
+            <td><input type="button" id="n" value="0" onclick="have(0);"></td>
+            <td><input type="button" id="x" value="." onclick="have(.);"></td>
+            <td><input type="button" id="y" value="=" onclick="calculate();"></td>
+            <td><input type="button" id="z" value="/" onclick="have(/);"></td>
+        </tr>                       
+    </table>
+</form>
+</body>
+</html>
