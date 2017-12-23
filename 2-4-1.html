@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>用户注册</title>
+	<meta charset="utf-8">
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	    $(function(){
+	    	$("#address").focus(function(){
+	    		var txt_value = $(this).val();
+	    		if(txt_value==this.defaultValue){
+	    			$(this).val("");
+	    		}
+	    	});
+	    	$("#address").blur(function(){
+	    		var txt_value = $(this).val();
+	    		if(txt_value==""){
+	    			$(this).val(this.defaultValue);
+	    		}
+	    	});
+	    	$("#password").focus(function(){
+	    		var txt_value = $(this).val();
+	    		if(txt_value==this.defaultValue){
+	    			$(this).val("");
+	    		}
+	    	});
+		    $("#password").blur(function(){
+		  	    var txt_value =  $(this).val();
+				if(txt_value==""){
+	                $(this).val(this.defaultValue);
+				} 
+		    })
+		    $("#password2").focus(function(){
+                var txt_value = $(this).val();
+                if(txt_value==""){
+                	$(this).val(this.defaultValue);
+                }
+		    });
+		    $("#password2").blur(function(){
+		    	var txt1 = $(this).val();
+		    	var txt2 = $("#password").val();
+		    	if(txt1 != txt2 || txt1==""){
+		    		alert("两次输入不一致！！")
+		    		$(this).val(this.defaultValue);
+		    	}
+		    })
+	    });                     
+	</script>
+</head>
+<body>
+    <input type="text" id="address" value="请输入邮箱地址"/>   
+    <br/><br/>
+	<input type="text" id="password" value="请输入邮箱密码"/>  
+	<br/><br/>
+	<input type="text" id="password2" value="请再次输入邮箱密码"/>  
+	<br/><br/>
+</body>
+</html>
