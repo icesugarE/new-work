@@ -1,0 +1,72 @@
+#neirong{
+    background-image: url(images/5.jpg);
+    height: 700px;
+}
+#mulu{
+    background-image: url(images/31.png);
+    height: 70px;
+}
+#zuomulu{
+    float: left;
+    line-height:40px; 
+    text-align:center;    
+}
+a{ 
+    font-family:"微软雅黑","黑体","宋体";
+    font-size:24px;
+    text-decoration:none; 
+    color:#FFFFFF; 
+    display:block; 
+    height:40px; 
+    width: 100px;
+} 
+ul li ul li{ 
+    float:none; 
+    background-image: url(images/31.png);
+} 
+ul li ul{ 
+    display:none; 
+} 
+#xuanzedan a{
+    font-family:"微软雅黑","黑体","宋体";
+    font-size:16px;
+    text-decoration:none; 
+    color:#FFFFFF; 
+    display:block; 
+    height:40px; 
+    width: 100px;    
+}
+
+#xuanze{
+    float: left;
+}
+#tupian{
+    float:right;
+}
+#tupian1{
+    float:right;
+    padding-right:100px;
+    padding-top:50px; 
+    display: block;
+}
+#tupian2{
+    float:right;
+    padding-right:130px;
+    padding-top:40px;    
+    display: none;
+}
+#tupian3{
+    float:right;
+    padding-right:100px;
+    padding-top:50px;
+    display: none;
+}
+#box{
+display:none;
+width: 100px;
+height: 100px; 
+background:#CCC;
+border:1px solid #333;
+padding:12px;
+text-align:center;
+}

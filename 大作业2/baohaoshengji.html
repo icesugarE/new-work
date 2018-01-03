@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>爆豪胜己</title>
+	<meta charset="utf-8">
+	<link href="baohao.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="baohao.js"></script>   
+</head>
+<body>
+    <div id="bigbody">
+        <div id="mulu">
+            <div id="zuomulu">
+            <ul>
+                <li onmouseover="showsub(this);" onmouseout="hidesub(this);"><a href="#">人物资料</a>
+                    <ul class="yincang">
+                       <li><a href="#">外貌</a></li>
+                       <li><a href="#">经历</a></li>
+                       <li><a href="#">性格</a></li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+        </div>
+
+
+        <div id="neirong">
+            <div id="xuanze">
+                <br/>
+                <br/>
+                <br/>
+
+                <br/>
+                <ul id="xuanzedan">
+                   <li onclick="getphoto(1);"><a href="#">A类图片</a></li>
+                   <br/>
+                   <br/>
+                   <li onclick="getphoto(2)"><a href="#">B类图片</a></li>
+                   <br/>
+                   <br/>
+                   <li onclick="getphoto(3)"><a href="#">C类图片</a></li>
+                   <br/>
+                   <br/>
+                   <li"><a href="#" onmouseover="display()" onmouseout="disappear()">图片下载</a></li>
+                </ul>
+                <div id="box" onmouseover="display()" onmouseout="disappear()"><img src="images/31.jpg"></div>
+            </div>
+            
+            <div id="tupian">
+            <div id="tupian1">
+                <img id = "obj1" src = "images/1.jpg" border = 0 />
+            </div>
+
+            <div id="tupian2">
+                <img id = "obj2" src = "images/6.jpg" border = 0 />
+                <img id = "obj22" src = "images/22.jpg" border = 0 />
+            </div>
+
+            <div id="tupian3">
+                <img id = "obj3" src = "images/15.jpg" border = 0 />
+                <img id = "obj33" src = "images/19.jpg" border = 0 />
+            </div>  
+            </div>         
+        </div>
+    </div>
+</body>
+</html>
